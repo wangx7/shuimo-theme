@@ -2,7 +2,7 @@
   "name": "koi-noir-theme",
   "displayName": "Koi Noir Theme",
   "description": "基于 Material Theme 的自定义主题：幸运锦鲤",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "publisher": "wangx123",
   "icon": "logo.jpg",
   "engines": {
