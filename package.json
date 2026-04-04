@@ -1,46 +1,31 @@
 {
-  "name": "koi-noir-theme",
-  "displayName": "Koi Noir Theme",
-  "description": "基于 Material Theme 的自定义主题：幸运锦鲤",
-  "version": "2.0.4",
+  "name": "bamboo-scroll-theme",
+  "displayName": "Bamboo Scroll Theme",
+  "description": "融合中国传统色彩与现代护眼美学的 VS Code 高级主题系列（竹简・竹简墨夜）。",
+  "version": "3.0.0",
   "publisher": "wangx123",
-  "icon": "logo.jpg",
+  "icon": "logo.png",
   "engines": {
     "vscode": "^1.101.0"
   },
   "categories": [
     "Themes"
   ],
-   "repository": {
+  "repository": {
     "type": "git",
     "url": "https://github.com/wangx7/koi-noir-theme.git"
   },
   "contributes": {
     "themes": [
       {
-        "label": "Dark Theme",
-        "uiTheme": "vs-dark",
-        "path": "./themes/koi-noir-dark-color-theme.json"
-      },
-      {
-        "label": "Solarized Light Theme",
+        "label": "竹简",
         "uiTheme": "vs",
-        "path": "./themes/koi-noir-solarized-night-shift-color-theme.json"
+        "path": "./themes/koi-bamboo-scroll-light-color-theme.json"
       },
       {
-        "label": "Palenight High Theme",
+        "label": "竹简墨夜",
         "uiTheme": "vs-dark",
-        "path": "./themes/koi-noir-palenight-high-color-theme.json"
-      },
-      {
-        "label": "lan Theme",
-        "uiTheme": "vs-dark",
-        "path": "./themes/koi-noir-lan-color-theme.json"
-      },
-      {
-        "label": "lv Theme",
-        "uiTheme": "vs-dark",
-        "path": "./themes/koi-noir-lv-color-theme.json"
+        "path": "./themes/koi-bamboo-scroll-dark-color-theme.json"
       }
     ]
   }
