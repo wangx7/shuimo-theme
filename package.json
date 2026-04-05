@@ -1,8 +1,8 @@
 {
-  "name": "bamboo-scroll-theme",
+  "name": "zhujian-theme",
   "displayName": "竹简 Theme",
-  "description": "竹简 Theme：融合中国传统色彩与现代护眼美学的 VS Code 高级主题系列（竹简・竹简墨夜）。",
-  "version": "3.0.0",
+  "description": "竹简主题，清新雅致，适合喜欢自然风格的开发者。",
+  "version": "1.0.3",
   "publisher": "wangx123",
   "icon": "logo.png",
   "engines": {
