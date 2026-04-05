@@ -1,8 +1,8 @@
 {
   "name": "zhujian-theme",
   "displayName": "竹简 Theme",
-  "description": "竹简主题，清新雅致，适合喜欢自然风格的开发者。",
-  "version": "1.1.1",
+  "description": "竹简主题系列：包含「竹简」「竹简墨夜」棕色系列与「水墨丹青」「水墨夜境」水墨风系列，古韵雅致，适合喜欢自然风格的开发者。",
+  "version": "1.2.0",
   "publisher": "wangx123",
   "icon": "logo.png",
   "scripts": {
@@ -29,6 +29,16 @@
         "label": "竹简墨夜",
         "uiTheme": "vs-dark",
         "path": "./themes/bamboo-scroll-dark-color-theme.json"
+      },
+      {
+        "label": "水墨丹青",
+        "uiTheme": "vs",
+        "path": "./themes/ink-wash-light-color-theme.json"
+      },
+      {
+        "label": "水墨夜境",
+        "uiTheme": "vs-dark",
+        "path": "./themes/ink-wash-dark-color-theme.json"
       }
     ]
   }
