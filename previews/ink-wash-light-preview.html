@@ -9,20 +9,21 @@
   <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Ma+Shan+Zheng&family=Noto+Serif+SC:wght@400;500;700&display=swap" rel="stylesheet">
   <style>
     :root {
-      --paper-0: #F0E6D3;
-      --paper-1: #E8DDCA;
-      --paper-2: #E0D4C0;
-      --ink-900: #3C3836;
-      --ink-700: #5C5652;
-      --ink-500: #6A6575;
-      --line: #C7BCA5;
-      --focus: #8B4B34;
-      --bamboo: #466C44;
-      --mineral: #1B5B6B;
-      --umber: #8B4B34;
-      --seal: #B04C40;
-      --plum: #7A4050;
-      --shadow: rgba(60, 56, 54, 0.12);
+      --paper-0: #F1EAD3;
+      --paper-1: #EAE3CA;
+      --paper-2: #E1D8BC;
+      --ink-900: #3A3631;
+      --ink-700: #6B665E;
+      --ink-500: #7A7468;
+      --line: #D1C6AE;
+      --focus: #2F6488;
+      --keyword: #24445E;
+      --type: #3E5F99;
+      --function: #2F6488;
+      --string: #2F6B57;
+      --constant: #B2473E;
+      --parameter: #7D5C32;
+      --shadow: rgba(58, 54, 49, 0.12);
     }
 
     * {
@@ -85,7 +86,7 @@
       width: 190px;
       height: 190px;
       border-radius: 50%;
-      background: radial-gradient(circle at 30% 30%, rgba(180, 106, 76, 0.42), rgba(180, 106, 76, 0));
+      background: radial-gradient(circle at 30% 30%, rgba(47, 100, 136, 0.42), rgba(47, 100, 136, 0));
       filter: blur(1px);
     }
 
@@ -96,8 +97,8 @@
       width: 84px;
       height: 84px;
       border-radius: 50%;
-      border: 2px solid rgba(180, 106, 76, 0.5);
-      color: var(--seal);
+      border: 2px solid rgba(47, 100, 136, 0.5);
+      color: var(--function);
       display: grid;
       place-content: center;
       font-family: "Ma Shan Zheng", cursive;
@@ -125,7 +126,7 @@
     .brush {
       font-family: "Ma Shan Zheng", cursive;
       font-size: 1.1em;
-      color: var(--umber);
+      color: var(--function);
       margin-left: 0.25em;
     }
 
@@ -179,8 +180,8 @@
       content: "";
       width: 22px;
       height: 2px;
-      background: var(--umber);
-      box-shadow: 0 6px 0 rgba(156, 119, 72, 0.45);
+      background: var(--function);
+      box-shadow: 0 6px 0 rgba(47, 100, 136, 0.45);
     }
 
     .section p {
@@ -311,13 +312,13 @@
     }
 
     .tk-comment { color: var(--ink-500); font-style: italic; }
-    .tk-keyword { color: var(--umber); }
-    .tk-type { color: var(--plum); }
-    .tk-function { color: var(--mineral); }
-    .tk-string { color: var(--bamboo); }
-    .tk-number { color: var(--seal); }
+    .tk-keyword { color: var(--keyword); }
+    .tk-type { color: var(--type); }
+    .tk-function { color: var(--function); }
+    .tk-string { color: var(--string); }
+    .tk-number { color: var(--constant); }
     .tk-variable { color: var(--ink-900); }
-    .tk-operator { color: var(--umber); }
+    .tk-operator { color: var(--keyword); }
 
     .grid {
       display: grid;
@@ -422,7 +423,7 @@
       <div class="hero-meta">
         <span class="pill">Light / Eye Care</span>
         <span class="pill">Semantic Highlighting</span>
-        <span class="pill">Bamboo-Inspired Palette</span>
+        <span class="pill">Ink-Wash Palette</span>
       </div>
       <div class="seal">印</div>
     </header>
@@ -430,66 +431,66 @@
     <section class="section">
       <h2>设计主张</h2>
       <p>
-        深入中国传统色彩体系，从长时阅读与书写的场景出发，构建出具备“深远”意境的顶层编程光谱：<strong>竹黄</strong>温润如旧书，<strong>焦墨</strong>深邃作主文，<strong>远山</strong>淡退为注释。
+        深入中国传统色彩体系，从长时阅读与书写的场景出发，构建出具备“深远”意境的顶层编程光谱：<strong>宣纸</strong>温润如旧书，<strong>宿墨</strong>深邃作主文，<strong>浓墨</strong>淡退为点缀。
       </p>
       <p>
-        在强调色上，严选<strong>绿沉（漆翠）</strong>、<strong>空青（靛青）</strong>、<strong>赭石</strong>与<strong>朱砂</strong>、<strong>紫檀</strong>，它们共同形成了高辨识度但绝不刺眼的和谐色阶，极大缓解了传统白底高饱和主题带来的视觉抗拒与干涩。
+        在强调色上，严选<strong>苔绿</strong>、<strong>石青</strong>、<strong>青金石</strong>与<strong>朱磦</strong>，它们共同形成了高辨识度但绝不刺眼的和谐色阶，极大缓解了传统白底高饱和主题带来的视觉抗拒与干涩，展现真正的水墨格调。
       </p>
 
             <div class="palette">
         <article class="swatch">
-          <div class="swatch-color" style="background:#F0E6D3;color:#3C3836;">#F0E6D3</div>
+          <div class="swatch-color" style="background:#F1EAD3;color:#3A3631;">#F1EAD3</div>
           <div class="swatch-info">
-            <p class="swatch-name">竹黄</p>
-            <p class="swatch-imagery">书卷竹纹</p>
+            <p class="swatch-name">宣纸</p>
+            <p class="swatch-imagery">微黄纸张</p>
             <p class="swatch-use">editor.background</p>
           </div>
         </article>
         <article class="swatch">
-          <div class="swatch-color" style="background:#3C3836;color:#F0E6D3;">#3C3836</div>
+          <div class="swatch-color" style="background:#3A3631;color:#F1EAD3;">#3A3631</div>
           <div class="swatch-info">
-            <p class="swatch-name">焦墨</p>
+            <p class="swatch-name">宿墨</p>
             <p class="swatch-imagery">浓墨正文</p>
             <p class="swatch-use">editor.foreground</p>
           </div>
         </article>
         <article class="swatch">
-          <div class="swatch-color" style="background:#466C44;color:#F0E6D3;">#466C44</div>
+          <div class="swatch-color" style="background:#2F6B57;color:#F1EAD3;">#2F6B57</div>
           <div class="swatch-info">
-            <p class="swatch-name">漆翠</p>
-            <p class="swatch-imagery">窗内修竹</p>
+            <p class="swatch-name">苔绿</p>
+            <p class="swatch-imagery">雨后青苔</p>
             <p class="swatch-use">string / inserted</p>
           </div>
         </article>
         <article class="swatch">
-          <div class="swatch-color" style="background:#1B5B6B;color:#F0E6D3;">#1B5B6B</div>
+          <div class="swatch-color" style="background:#2F6488;color:#F1EAD3;">#2F6488</div>
           <div class="swatch-info">
-            <p class="swatch-name">靛青</p>
-            <p class="swatch-imagery">雨后远山</p>
+            <p class="swatch-name">石青</p>
+            <p class="swatch-imagery">水墨点染</p>
             <p class="swatch-use">function / method</p>
           </div>
         </article>
         <article class="swatch">
-          <div class="swatch-color" style="background:#8B4B34;color:#F0E6D3;">#8B4B34</div>
+          <div class="swatch-color" style="background:#24445E;color:#F1EAD3;">#24445E</div>
           <div class="swatch-info">
-            <p class="swatch-name">赭石</p>
-            <p class="swatch-imagery">古木夕阳</p>
+            <p class="swatch-name">浓墨</p>
+            <p class="swatch-imagery">深蓝墨韵</p>
             <p class="swatch-use">keyword / operator</p>
           </div>
         </article>
         <article class="swatch">
-          <div class="swatch-color" style="background:#B04C40;color:#F0E6D3;">#B04C40</div>
+          <div class="swatch-color" style="background:#B2473E;color:#F1EAD3;">#B2473E</div>
           <div class="swatch-info">
-            <p class="swatch-name">朱砂</p>
+            <p class="swatch-name">朱磦</p>
             <p class="swatch-imagery">落款红印</p>
             <p class="swatch-use">number / boolean</p>
           </div>
         </article>
         <article class="swatch">
-          <div class="swatch-color" style="background:#7A4050;color:#F0E6D3;">#7A4050</div>
+          <div class="swatch-color" style="background:#3E5F99;color:#F1EAD3;">#3E5F99</div>
           <div class="swatch-info">
-            <p class="swatch-name">紫檀</p>
-            <p class="swatch-imagery">案头沉香</p>
+            <p class="swatch-name">青金石</p>
+            <p class="swatch-imagery">矿物颜料</p>
             <p class="swatch-use">type / class</p>
           </div>
         </article>
