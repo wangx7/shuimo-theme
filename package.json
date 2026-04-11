@@ -21,7 +21,7 @@
   "contributes": {
     "themes": [
       {
-        "label": "竹林深入",
+        "label": "竹林深处",
         "uiTheme": "vs",
         "path": "./themes/bamboo-green-light-color-theme.json"
       },
