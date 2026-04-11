@@ -2,9 +2,9 @@
   "name": "shuimo-theme",
   "displayName": "水墨 Theme",
   "description": "点墨成渊映竹影，化筠为简蕴幽香。指尖经纬裁风雨，且护明眸夜未央。",
-  "version": "1.5.2",
+  "version": "1.5.3",
   "publisher": "wangx123",
-  "icon": "logo_backup.png",
+  "icon": "logo.png",
   "scripts": {
     "build": "npx @vscode/vsce package"
   },
@@ -21,14 +21,19 @@
   "contributes": {
     "themes": [
       {
-        "label": "竹简",
+        "label": "竹林深入",
         "uiTheme": "vs",
-        "path": "./themes/bamboo-scroll-light-color-theme.json"
+        "path": "./themes/bamboo-green-light-color-theme.json"
       },
       {
         "label": "水墨丹青",
         "uiTheme": "vs",
         "path": "./themes/ink-wash-light-color-theme.json"
+      },
+      {
+        "label": "竹简",
+        "uiTheme": "vs",
+        "path": "./themes/bamboo-scroll-light-color-theme.json"
       },
       {
         "label": "竹简墨夜",
