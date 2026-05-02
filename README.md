@@ -5,9 +5,7 @@
 ## 主题列表
 
 - **水墨丹青（浅）** - _水墨风系列_：淡雅柔和，降低浅色环境下的视觉负担。
-- **竹林深处（深）** - _护眼系列_：如浓墨落于青竹，极致清晰且长时办公不疲劳。
-- **竹简（浅）** - _棕色系列_：传统色体系 + WCAG AA 对比度，适合白天长时编码。
-- **月涌大江流（深）** - _深蓝夜江系列_：深蓝底色配银蓝点缀，层级清晰、对比充足。
+- **竹林深处（浅）** - _护眼系列_：青竹底色搭配墨色文字，极致清晰且长时办公不疲劳。
 
 ## 主题特色
 
@@ -19,16 +17,14 @@
 
 1. 在 VS Code 扩展市场搜索并安装 `水墨 Theme`。
 2. 打开命令面板（快捷键：`Cmd/Ctrl + Shift + P`）并执行 `Preferences: Color Theme`（首选项：颜色主题）。
-3. 选择您需要的主题：**水墨丹青**、**竹林深处**、**竹简**、**月涌大江流**。
+3. 选择您需要的主题：**水墨丹青**、**竹林深处**。
 
 _快捷路径：`Cmd/Ctrl + K` -> `Cmd/Ctrl + T`。_
 
 ## 预览
 
 - [水墨丹青（浅色） - 效果预览](https://raw.githack.com/wangx7/shuimo-theme/main/previews/ink-wash-light-preview.html)
-- [竹林深处（深色）- 效果预览](https://raw.githack.com/wangx7/shuimo-theme/main/previews/bamboo-green-light-preview.html)
-- [竹简（浅色） - 效果预览](https://raw.githack.com/wangx7/shuimo-theme/main/previews/bamboo-scroll-paper-preview.html)
-- [月涌大江流（深色） - 效果预览](https://raw.githack.com/wangx7/shuimo-theme/main/previews/moon-river-dark-preview.html)
+- [竹林深处（浅色）- 效果预览](https://raw.githack.com/wangx7/shuimo-theme/main/previews/bamboo-green-light-preview.html)
 
 ## 进阶 — 背景装饰
 > VS Code 原生主题不支持背景图案，但可以搭配第三方扩展实现。

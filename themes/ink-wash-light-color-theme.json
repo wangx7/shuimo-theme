@@ -88,7 +88,7 @@
     "activityBar.background": "#E8E0CB",
     "activityBar.dropBorder": "#2F2B25",
     "activityBar.foreground": "#1A1814",
-    "activityBar.inactiveForeground": "#8E877A",
+    "activityBar.inactiveForeground": "#7A7468",
     "activityBar.border": "#00000000",
     "activityBarBadge.background": "#B2473E",
     "activityBarBadge.foreground": "#F1EAD3",
@@ -135,9 +135,9 @@
 
     "editor.background": "#F1EAD3",
     "editor.foreground": "#3A3631",
-    "editorLineNumber.foreground": "#8C8578",
+    "editorLineNumber.foreground": "#787166",
     "editorLineNumber.activeForeground": "#6B665E",
-    "editorCursor.foreground": "#B2473E",
+    "editorCursor.foreground": "#2F2B25",
 
     "editor.selectionBackground": "#C7DCC880",
     "editor.selectionHighlightBackground": "#C7DCC840",
@@ -364,8 +364,8 @@
     "editorGhostText.foreground": "#8E877A",
 
     "diffEditor.diagonalFill": "#D1C6AE40",
-    "diffEditor.insertedLineBackground": "#2F6B5710",
-    "diffEditor.removedLineBackground": "#B2473E10",
+    "diffEditor.insertedLineBackground": "#2F6B5726",
+    "diffEditor.removedLineBackground": "#B2473E26",
 
     "settings.headerForeground": "#1A1814",
     "settings.modifiedItemIndicator": "#2F6488",
@@ -480,7 +480,7 @@
         "string.comment"
       ],
       "settings": {
-        "foreground": "#7A7468",
+        "foreground": "#6B655A",
         "fontStyle": "italic"
       }
     },
@@ -495,7 +495,7 @@
         "keyword.operator.void"
       ],
       "settings": {
-        "foreground": "#1F3348"
+        "foreground": "#24445E"
       }
     },
     {
@@ -526,7 +526,7 @@
         "storage.type.ts"
       ],
       "settings": {
-        "foreground": "#1F3348"
+        "foreground": "#24445E"
       }
     },
     {
@@ -837,7 +837,7 @@
         "storage.modifier.package.java"
       ],
       "settings": {
-        "foreground": "#1F3348"
+        "foreground": "#24445E"
       }
     },
     {
@@ -1120,7 +1120,7 @@
         "source.go storage.type"
       ],
       "settings": {
-        "foreground": "#1F3348"
+        "foreground": "#24445E"
       }
     },
 
@@ -1169,7 +1169,7 @@
         "source.cpp storage.type"
       ],
       "settings": {
-        "foreground": "#1F3348"
+        "foreground": "#24445E"
       }
     },
     {
@@ -1208,7 +1208,7 @@
         "source.shell storage.type"
       ],
       "settings": {
-        "foreground": "#1F3348"
+        "foreground": "#24445E"
       }
     },
     {
@@ -1274,7 +1274,7 @@
         "source.sql keyword"
       ],
       "settings": {
-        "foreground": "#1F3348"
+        "foreground": "#24445E"
       }
     },
     {
@@ -1334,7 +1334,7 @@
       "fontStyle": "italic"
     },
     "macro": {
-      "foreground": "#B2473E"
+      "foreground": "#5C4A68"
     },
     "function.declaration": {
       "foreground": "#2F6488"
@@ -1373,10 +1373,10 @@
       "foreground": "#B2473E"
     },
     "keyword": {
-      "foreground": "#1F3348"
+      "foreground": "#24445E"
     },
     "comment": {
-      "foreground": "#7A7468",
+      "foreground": "#6B655A",
       "fontStyle": "italic"
     },
     "string": {
