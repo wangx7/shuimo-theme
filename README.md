@@ -5,8 +5,8 @@
 ## 主题列表
 
 - **水墨画** - _经典系列_：水墨风格，还原传统意境。
-- **水墨丹青（浅）** - _水墨风系列_：淡雅柔和，降低浅色环境下的视觉负担。
-- **竹林深处（浅）** - _护眼系列_：青竹底色搭配墨色文字，极致清晰且长时办公不疲劳。
+- **水墨丹青** - _水墨风系列_：淡雅柔和，降低浅色环境下的视觉负担。
+- **竹林深处** - _护眼系列_：青竹底色搭配墨色文字，极致清晰且长时办公不疲劳。
 
 ## 主题特色
 
@@ -18,15 +18,9 @@
 
 1. 在 VS Code 扩展市场搜索并安装 `水墨 Theme`。
 2. 打开命令面板（快捷键：`Cmd/Ctrl + Shift + P`）并执行 `Preferences: Color Theme`（首选项：颜色主题）。
-3. 选择您需要的主题：**水墨丹青**、**竹林深处**。
+3. 选择您需要的主题：**水墨画**、**水墨丹青**、**竹林深处**。
 
 _快捷路径：`Cmd/Ctrl + K` -> `Cmd/Ctrl + T`。_
-
-## 预览
-
-- [水墨画 - 效果预览](https://raw.githack.com/wangx7/shuimo-theme/main/previews/ink-wash-painting-preview.html)
-- [水墨丹青（浅色） - 效果预览](https://raw.githack.com/wangx7/shuimo-theme/main/previews/ink-wash-light-preview.html)
-- [竹林深处（浅色）- 效果预览](https://raw.githack.com/wangx7/shuimo-theme/main/previews/bamboo-green-light-preview.html)
 
 ## 进阶 — 背景装饰
 > VS Code 原生主题不支持背景图案，但可以搭配第三方扩展实现。
